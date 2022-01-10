@@ -44,18 +44,3 @@ if (count($argv) < 2) {
     echo "\e[1;31mError:\e[0m you have entered an invalid number of arguments.\n";
 }
 
-/*if ($output[0] == "true") {
-    echo "\e[3mCurrent project is a Git repository.\e[0m\n";
-
-    if (count($argv) < 2) {
-
-    } else if (count($argv) === 2) {
-        $runGitStatus = dirname(__FILE__);
-    } else {
-        echo "\e[1m\e[31mError\e[0m\e[1m: Too many arguments.\e[0m\n";
-    }
-} else {
-    echo "\e[3m\e[1m\e[31mWarning\e[0m\e[1m\e[3m:\e[0m \e[3mIt looks like the current project isn't a Git repo. Run \e[1mgit init\e[0m \e[3mto set up.\e[0m\n";
-    exit(1);
-}*/
-
