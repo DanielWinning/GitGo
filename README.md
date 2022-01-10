@@ -10,6 +10,10 @@ git push
 
 Nope? Well I do, so I made this to speed up my workflow a bit and because it was fun :)
 
+### Pre-requisites
+
+**PHP 7.0+** is required to be included in your `$PATH`.
+
 ### Installation
 
 1. Download the latest release.

@@ -13,5 +13,7 @@
             "email": "daniel@winningwebdesign.co.uk"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0.0"
+    }
 }
