@@ -27,13 +27,13 @@ if (count($argv) < 2) {
                 }
             }
 
-            echo "\n\e[3m[1/3] Staging changes...\e[0m\n";
+            echo "\e[3m[1/3] Staging changes...\e[0m\n";
             exec("sh $dir/../bin/scripts/add.sh", $output, $return);
 
-            echo "\n\e[3m[2/3] Committing changes...\e[0m\n";
+            echo "\e[3m[2/3] Committing changes...\e[0m\n";
             exec("sh $dir/../bin/scripts/commit.sh \"$argv[1]\"", $output, $return);
 
-            echo "\n\e[3m[3/3] Pushing changes...\e[0m\n";
+            echo "\e[3m[3/3] Pushing changes...\e[0m\n";
             exec("sh $dir/../bin/scripts/push.sh", $output, $return);
         }
     } else {
