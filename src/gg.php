@@ -28,13 +28,13 @@ if (count($argv) < 2) {
             }
 
             echo "\n\e[3m[1/3] Staging changes...\e[0m\n";
-
-            /*exec("sh $dir/../bin/scripts/add.sh", $output, $return);*/
+            exec("sh $dir/../bin/scripts/add.sh", $output, $return);
 
             echo "\n\e[3m[2/3] Committing changes...\e[0m\n";
-
             exec("sh $dir/../bin/scripts/commit.sh \"$argv[1]\"", $output, $return);
-            var_dump($output);
+
+            echo "\n\e[3m[3/3] Pushing changes...\e[0m\n";
+            exec("sh $dir/../bin/scripts/push.sh", $output, $return);
         }
     } else {
         echo "\e[3mCurrent project is not a Git repository. Run \e[1mgit init\e[0m\e[3m to create your repo.\e[0m\n";
