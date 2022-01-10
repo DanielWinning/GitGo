@@ -1,0 +1,17 @@
+{
+    "name": "dannyxcii/git-go",
+    "description": "Stage all, commit and push to Git in one command.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "GitGo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danny",
+            "email": "daniel@winningwebdesign.co.uk"
+        }
+    ],
+    "require": {}
+}
