@@ -20,7 +20,7 @@ Nope? Well I do, so I made this to speed up my workflow a bit and because it was
 ### Usage
 
 ```
-gg "<message"
+gg "<message>"
 ```
 
 That's it :)
